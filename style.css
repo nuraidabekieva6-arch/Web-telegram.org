@@ -1,0 +1,119 @@
+/* Общие настройки для копии */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f4f5; /* Цвет фона как на скрине */
+    color: #222;
+}
+
+/* Центрируем все содержимое */
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container {
+    background: white;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    text-align: center;
+    width: 420px; /* Ширина как на скрине */
+}
+
+/* Стили QR-кода */
+.qr-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.qr-img {
+    width: 260px; 
+    height: 260px;
+}
+
+.tg-mini-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55px;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.qr-box p {
+    color: #707579;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+/* Стили для шагов */
+.steps-box {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.step-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.step-num {
+    background-color: #3390ec;
+    color: white;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 18px;
+    flex-shrink: 0;
+}
+
+.step-item p {
+    margin: 0;
+    font-size: 15px;
+    color: #000;
+}
+
+.step-item strong {
+    font-weight: 600;
+}
+
+/* Стили для ссылок внизу */
+.action-links {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.link-btn {
+    color: #3390ec;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.link-btn:hover {
+    text-decoration: underline;
+}   
